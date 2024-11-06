@@ -1,0 +1,114 @@
+/* Reset básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body para darle un fondo suave y tipografía */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #e62121f3; /* Rojo brillante pero no cegador */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Logo de la UVM en la parte superior izquierda */
+header img {
+    width: 250px; /* Más ancho, no más largo */
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+/* Título centrado en el encabezado */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Estilo para el menú horizontal */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em 0;
+    background-color: #272525e5;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 1.5em auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+/* Centrar el encabezado "Universidad del Valle de México" en la portada */
+section h2 {
+    text-align: center;
+    color: #004080;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+/* Centrar el GIF y hacerlo más grande en la portada */
+.gif-posicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gif-posicion img {
+    width: 450px; /* Tamaño más grande */
+    height: auto;
+    margin-left: 10px; /* Ligeramente a la derecha */
+}
+
+/* Posicionar los nombres más abajo y un poco a la izquierda */
+.nombres {
+    text-align: center;
+    margin-top: 50px; /* Más abajo */
+    margin-left: 20px; /* Ligeramente a la izquierda */
+    line-height: 1.6;
+}
+
+
+/* Estilos de la lista de referencias */
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f0f0f0;
+}
